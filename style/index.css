@@ -4,7 +4,7 @@
 }
 
 .top {
-    height: 768px;
+    min-height: 768px;
     background: linear-gradient(0deg, #dcbefb 8.84%, #f5ebfa 22%);
 }
 
@@ -28,7 +28,7 @@
     background-image: url(../images/purplefull.png);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 600px;
+    background-size: 35%;
 }
 
 .top_heading {
@@ -214,4 +214,120 @@ hr {
 .footer_copy {
     opacity: 0.4;
     margin-top: 64px;
+}
+
+/* For iphone */
+@media (max-width: 896px) {
+    .top_info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .header {
+        padding-top: 24px;
+    }
+
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .top_heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .top_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top_button {
+        font-style: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+        border-radius: 4px;
+    }
+
+    .card_box {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+        padding-top: 32px;
+    }
+
+    .heading {
+        width: 100%;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .what_we_do {
+        padding-top: 48px;
+    }
+
+    .project__text {
+        width: 100%;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .footer {
+        padding-top: 18px;
+        padding-bottom: 32px;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        padding-bottom: 41px;
+    }
+
+    .footer_text {
+        width: 100%;
+    }
+
+    .footer_heading {
+        width: 75%;
+        margin: 0 auto 32px;
+        text-align: center;
+    }
+
+    .text_footer {
+        text-align: center;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .footer_info {
+        flex-direction: column;
+    }
+
+    .footer_copy {
+        margin-top: 32px;
+    }
+
+    .footer_list {
+        margin-bottom: 18px;
+    }
+
 }
