@@ -84,7 +84,7 @@
     color: #4c0572;
 }
 
-.what_we_do {
+.card_list {
     padding-top: 64px;
 }
 
@@ -277,7 +277,7 @@ hr {
         text-align: center;
     }
 
-    .what_we_do {
+    .card_list {
         padding-top: 48px;
     }
 
