@@ -1,0 +1,31 @@
+{
+  "name": "supfact",
+  "version": "1.0.0",
+  "description": "My project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Lany/sup_factory.git"
+  },
+  "author": "J-Lany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Lany/sup_factory/issues"
+  },
+  "homepage": "https://github.com/J-Lany/sup_factory#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-webp": "^4.0.1"
+  }
+}
